@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ imageSrc, title, description, link }) => {
   return (
-    <div className="max-w-sm z-50 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+    <div className="max-w-sm z-40 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
       <a href={link} target="_blank" rel="noopener noreferrer">
         <img className="rounded-t-lg" src={imageSrc} alt={title} />
       </a>

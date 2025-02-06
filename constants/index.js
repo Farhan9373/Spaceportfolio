@@ -212,18 +212,18 @@ export const Skill_data = [
   ];
   
   export const Full_stack = [
-    // {
-    //   skill_name: "React Native",
-    //   Image: "/ReactNative .png",
-    //   width: 70,
-    //   height: 70,
-    // },
-    // {
-    //   skill_name: "Tauri",
-    //   Image: "/tauri.svg",
-    //   width: 70,
-    //   height: 70,
-    // },
+    {
+      skill_name: "AWS",
+      Image: "/aws.png",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "Redis",
+      Image: "/redis.png",
+      width: 70,
+      height: 70,
+    },
     {
       skill_name: "Docker",
       Image: "/docker.webp",
