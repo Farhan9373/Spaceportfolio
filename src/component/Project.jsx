@@ -36,7 +36,7 @@ const Project = () => {
       />
       <Card
         imageSrc="/gpt3.png"
-        title="AI ImageGenration"
+        title="Modern GPT3 UI"
         description="A sleek, user-friendly frontend for interacting with GPT-3. This project provides a seamless chat interface, enabling natural and engaging AI conversations with real-time responses."
         link="https://aesthetic-mousse-cea229.netlify.app/"
       />
