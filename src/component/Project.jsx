@@ -4,6 +4,20 @@ import Card from './ProjectCard'
 const Project = () => {
   return (
     <div className='flex flex-wrap gap-6 justify-center cursor-pointer' id='projects'>
+      
+      <Card
+        imageSrc="/crime-app.png"
+        title="CrimeReport App"
+        description="A user-friendly web app that allows citizens to report crimes online with structured forms. Built for accessibility and ease-of-use, it includes form validation, admin-side report tracking, and a clean, responsive UI."
+        link="https://crime-app-vnfo.vercel.app/"
+      />
+       <Card
+        imageSrc="/resumix.png"
+        title="AI Resume Builder"
+        description="A modern web-based resume builder built with Next.js, Typescript, MongoDB, and Clerk Auth. Features include real-time resume preview, PDF download, and resume management. Deployed on Vercel, optimized for performance and scalability."
+        link="https://resumix-lake.vercel.app/"
+      />
+
       <Card
         imageSrc="/ecommerce.png"
         title="Ecommerce Website"
