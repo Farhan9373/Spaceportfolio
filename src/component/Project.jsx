@@ -6,6 +6,18 @@ const Project = () => {
     <div className='flex flex-wrap gap-6 justify-center cursor-pointer' id='projects'>
       
       <Card
+        imageSrc="/21.png"
+        title="AI CareerCoach"
+        description="Created an AI-driven career platform with personalized resume builder,Industry insights and cover letter generation."
+        link="https://sense-ai-six.vercel.app/"
+      />
+      <Card
+        imageSrc="/22.png"
+        title="AI Therapist"
+        description="Built a full-stack AI therapist app with Gemini AI for emotionally intelligent conversations and mood tracking"
+        link="https://ai-therapist-frontend-pi.vercel.app/"
+      />
+      <Card
         imageSrc="/crime-app.png"
         title="CrimeReport App"
         description="A user-friendly web app that allows citizens to report crimes online with structured forms. Built for accessibility and ease-of-use, it includes form validation, admin-side report tracking, and a clean, responsive UI."
